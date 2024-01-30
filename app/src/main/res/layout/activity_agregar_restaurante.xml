@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/restaurante"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.svalero.gestorandroid.Restaurante.AgregarRestauranteActivity">
+
+    <EditText
+        android:id="@+id/editTextNombreRestaurante"
+        android:layout_width="395dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/menu"
+        android:hint="Nombre del Restaurante"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/editTextDireccionRestaurante"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_below="@+id/editTextNombreRestaurante"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/menu"
+        android:hint="Dirección"
+        android:textColor="@android:color/white" />
+
+    <!-- Agrega más elementos según tus necesidades, como botones, spinners, etc. -->
+
+    <Button
+        android:id="@+id/btnGuardarRestaurante"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editTextDireccionRestaurante"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/menu"
+        android:text="Guardar Restaurante"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

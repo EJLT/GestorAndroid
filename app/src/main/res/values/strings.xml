@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GestorAndroid</string>
+    <string name="welcome_message">¡Bienvenido a Mi Aplicación!</string>
+    <string name="action_maps">Abrir Mapas</string>
+    <string name="action_camera">Abrir Cámara</string>
+    <string name="btn_lugares_turisticos">Lugares Turísticos</string>
+    <string name="btn_eventos">Eventos</string>
+    <string name="btn_restaurantes">Restaurantes</string>
+    <string name="mostrar_lugares">Listar lugares</string>
+    <string name="mostrar_formulario_agregar">Mostrar formulario agregar</string>
+    <string name="mostrar_formulario_actualizar">Mostrar formulario actualizar</string>
+    <string name="mostrar_confirmacion_eliminar">Mostrar confirmación eliminar</string>
+</resources>

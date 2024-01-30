@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/tropical"
+    android:paddingTop="16dp"
+    tools:context="com.svalero.gestorandroid.MainActivity">
+
+    <!-- Barra de acción -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:background="@android:color/transparent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <!-- Contenedor principal con opciones -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <!-- Opción 1 -->
+        <Button
+            android:id="@+id/btnLugaresTuristicos"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/main"
+            android:text="Lugares Turísticos"
+            android:textColor="@android:color/white" />
+
+        <!-- Opción 2 -->
+
+        <!-- Opción 3 -->
+        <Button
+            android:id="@+id/btnEventos"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/main"
+            android:text="Eventos"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnRestaurantes"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="@drawable/main"
+            android:text="Restaurantes"
+            android:textColor="@android:color/white" />
+
+        <!-- Agrega más opciones según sea necesario -->
+
+    </LinearLayout>
+</RelativeLayout>

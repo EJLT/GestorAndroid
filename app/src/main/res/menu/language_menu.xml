@@ -1,0 +1,9 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_change_language"
+        android:title="Change Language"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+</menu>

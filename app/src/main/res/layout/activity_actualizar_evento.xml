@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eventosbackground"
+    android:padding="16dp"
+    tools:context="com.svalero.gestorandroid.Evento.ActualizarEventoActivity">
+
+    <!-- Puedes agregar elementos similares a los de la actividad Agregar Evento,
+         pero con datos precargados para editar -->
+
+    <EditText
+        android:id="@+id/etTituloActualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/fondos"
+        android:hint="Nuevo Título del Evento"
+        android:padding="10dp"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/etDescripcionActualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_below="@+id/etTituloActualizar"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/fondos"
+        android:hint="Nueva Descripción"
+        android:padding="10dp"
+        android:textColor="@android:color/white" />
+
+    <DatePicker
+        android:id="@+id/datePickerActualizar"
+        android:layout_width="371dp"
+        android:layout_height="375dp"
+        android:layout_below="@+id/etDescripcionActualizar"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDisponibleActualizar"
+        android:layout_width="263dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/datePickerActualizar"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp"
+        android:text="Disponible"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_below="@+id/checkBoxDisponibleActualizar"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/fondos"
+        android:text="Actualizar Evento"
+        android:textColor="@android:color/white" />
+
+    <!-- Otros elementos según tus necesidades -->
+
+</RelativeLayout>

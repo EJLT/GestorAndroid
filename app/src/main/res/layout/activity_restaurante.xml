@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/restaurante"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.svalero.gestorandroid.RestauranteActivity">
+
+    <!-- Puedes agregar aquí elementos como RecyclerView, botones, etc. -->
+
+    <Button
+        android:id="@+id/btnListarRestaurantes"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/menu"
+        android:text="Lista de Restaurantes"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnAgregarRestaurante"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnListarRestaurantes"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/menu"
+        android:text="Agregar Restaurante"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnActualizarRestaurante"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnAgregarRestaurante"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/menu"
+        android:text="Actualizar Restaurante"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnEliminarRestaurante"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_below="@+id/btnActualizarRestaurante"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/menu"
+        android:text="Eliminar Restaurante"
+        android:textColor="@android:color/white" />
+
+    <!-- Puedes agregar más elementos según tus necesidades -->
+
+</RelativeLayout>

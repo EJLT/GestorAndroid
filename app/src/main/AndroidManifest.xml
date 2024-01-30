@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GestorAndroid"
+        tools:targetApi="31">
+
+
+        <activity
+            android:name="com.svalero.gestorandroid.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.GestorAndroid">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.svalero.gestorandroid.EventoActivity"
+            android:exported="true"
+            android:label="Eventos"
+            android:theme="@style/Theme.GestorAndroid" />
+
+        <activity
+            android:name="com.svalero.gestorandroid.LugarTuristicoActivity"
+            android:exported="true"
+            android:label="Lugares Turísticos"
+            android:theme="@style/Theme.GestorAndroid" />
+
+        <activity
+            android:name="com.svalero.gestorandroid.RestauranteActivity"
+            android:exported="true"
+            android:label="Restaurantes"
+            android:theme="@style/Theme.GestorAndroid" />
+
+
+        <activity
+            android:name="com.svalero.gestorandroid.MapsActivity"
+            android:exported="true"
+            android:label="Map"
+            android:theme="@style/Theme.GestorAndroid" />
+
+        <activity
+            android:name="com.svalero.gestorandroid.Evento.ListarEventoActivity"
+            android:exported="true"
+            android:label="Listar Eventos"
+            android:theme="@style/Theme.GestorAndroid" />
+
+        <activity
+            android:name="com.svalero.gestorandroid.Evento.BorrarEventoActivity"
+            android:exported="true"
+            android:label="Borrar Evento"
+            android:theme="@style/Theme.GestorAndroid" />
+
+        <activity
+            android:name="com.svalero.gestorandroid.Evento.ActualizarEventoActivity"
+            android:exported="true"
+            android:label="Actualizar Evento"
+            android:theme="@style/Theme.GestorAndroid" />
+
+        <activity
+            android:name="com.svalero.gestorandroid.Evento.AgregarEventoActivity"
+            android:exported="true"
+            android:label="Agregar Evento"
+            android:theme="@style/Theme.GestorAndroid" />
+
+        <activity
+            android:name="com.svalero.gestorandroid.Restaurante.ListarRestauranteActivity"
+            android:exported="true"
+            android:label="Listar Restaurante"
+            android:theme="@style/Theme.GestorAndroid" />
+        <activity
+            android:name="com.svalero.gestorandroid.Restaurante.AgregarRestauranteActivity"
+            android:exported="true"
+            android:label="Agregar Restaurante"
+            android:theme="@style/Theme.GestorAndroid" />
+        <activity
+        android:name="com.svalero.gestorandroid.Restaurante.ActualizarRestauranteActivity"
+        android:exported="true"
+        android:label="Actualizar Restaurante"
+        android:theme="@style/Theme.GestorAndroid" />
+        <activity
+        android:name="com.svalero.gestorandroid.Restaurante.BorrarRestauranteActivity"
+        android:exported="true"
+        android:label="Borrar Restaurante"
+        android:theme="@style/Theme.GestorAndroid" />
+
+        <activity
+            android:name="com.svalero.gestorandroid.LugaresTuristicos.ListarLugarActivity"
+            android:exported="true"
+            android:label="Listar Lugares Turisticos"
+            android:theme="@style/Theme.GestorAndroid" />
+        <activity
+        android:name="com.svalero.gestorandroid.LugaresTuristicos.ActualizarLugarActivity"
+        android:exported="true"
+        android:label="Actualizar Lugar"
+        android:theme="@style/Theme.GestorAndroid" />
+        <activity
+        android:name="com.svalero.gestorandroid.LugaresTuristicos.BorrarLugarActivity"
+        android:exported="true"
+        android:label="Borrar Lugar"
+        android:theme="@style/Theme.GestorAndroid" />
+        <activity
+        android:name="com.svalero.gestorandroid.LugaresTuristicos.AgregarLugarActivity"
+        android:exported="true"
+        android:label="Agregar Lugar"
+        android:theme="@style/Theme.GestorAndroid" />
+
+
+    </application>
+
+</manifest>

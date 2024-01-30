@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/lugares"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.svalero.gestorandroid.LugarTuristicoActivity">
+
+    <!-- Puedes agregar aquí elementos como RecyclerView, botones, etc. -->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:background="@android:color/transparent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <Button
+        android:id="@+id/btnListarLugares"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/hojas"
+        android:text="Sitios Turísticos"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnAgregarLugarTuristico"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_below="@+id/btnListarLugares"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/hojas"
+        android:text="Añadir Lugar"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnActualizarLugarTuristico"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnAgregarLugarTuristico"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/hojas"
+        android:text="Actualizar"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnEliminarLugarTuristico"
+        android:layout_width="395dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/btnActualizarLugarTuristico"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/hojas"
+        android:text="Eliminar"
+        android:textColor="@android:color/white" />
+
+    <!-- Puedes agregar más elementos según tus necesidades -->
+
+</RelativeLayout>

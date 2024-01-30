@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lugares"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.svalero.gestorandroid.LugaresTuristicos.ActualizarLugarActivity">
+
+    <EditText
+        android:id="@+id/editTextNombreLugarActualizar"
+        android:layout_width="386dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:hint="Nuevo Nombre del Lugar"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/editTextDescripcionLugarActualizar"
+        android:layout_width="383dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/editTextNombreLugarActualizar"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:hint="Nueva Descripción"
+        android:textColor="@android:color/white" />
+
+    <!-- Agrega más elementos según tus necesidades, como botones, spinners, etc. -->
+
+    <Button
+        android:id="@+id/btnActualizarLugar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editTextDescripcionLugarActualizar"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/hojas"
+        android:text="Actualizar Lugar"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

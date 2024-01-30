@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lugares"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.svalero.gestorandroid.LugaresTuristicos.BorrarLugarActivity">
+
+    <EditText
+        android:id="@+id/editTextNombreLugarBorrar"
+        android:layout_width="386dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:hint="Nombre del Lugar a Borrar"
+        android:textColor="@android:color/white" />
+
+
+
+    <Button
+        android:id="@+id/btnBorrarLugar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editTextNombreLugarBorrar"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/hojas"
+        android:text="Borrar Lugar"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextDireccionRestauranteActualizar" type="id" />
+    <item name="editTextNombreRestauranteActualizar" type="id" />
+    <item name="editTextDescripcionLugar" type="id" />
+    <item name="editTextNombreLugar" type="id" />
+    <item name="btnGuardarLugar" type="id" />
+    <item name="editTextNombreLugarActualizar" type="id" />
+    <item name="editTextDescripcionLugarActualizar" type="id" />
+    <item name="btnActualizarLugar" type="id" />
+</resources>

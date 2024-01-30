@@ -1,0 +1,25 @@
+<!-- main_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_maps"
+        android:icon="@drawable/icono"
+        android:title="Maps"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_camera"
+        android:icon="@drawable/camera"
+    android:title="Camera"
+    android:orderInCategory="101"
+    app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_change_language"
+        android:title="Change Language"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+
+</menu>

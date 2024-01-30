@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Gestor Android</string>
+    <string name="welcome_message">Welcome to Gestor App</string>
+    <string name="action_maps">Open Maps</string>
+    <string name="action_camera">Open Camera</string>
+    <string name="btn_lugares_turisticos">Tourist Places</string>
+    <string name="btn_eventos">Events</string>
+    <string name="btn_restaurantes">Restaurants</string>
+    <string name="mostrar_lugares">Show places</string>
+    <string name="mostrar_formulario_agregar">Show add form</string>
+    <string name="mostrar_formulario_actualizar">Show update form</string>
+    <string name="mostrar_confirmacion_eliminar">Show delete confirmation</string>
+
+</resources>
