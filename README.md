@@ -30,7 +30,7 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
 5. Abre una solicitud de extracción.
 
 ## Problemas Conocidos
--
+- Problema a la hora de actualizar el evento, es decir la clase Actualizar Evento Activity.
 
 ## Tecnologías Utilizadas
 - Android
